@@ -1,0 +1,15 @@
+{ "name": "installer"
+, "version": "0.1.0"
+, "description": "wrapper around npm & git"
+, "homepage": "http://github.com/dominictarr/installer"
+, "repository": 
+  { "type": "git"
+  , "url": "https://github.com/dominictarr/installer.git" }
+, "dependencies": {
+    "mkdirp": "0.0.x"
+  , "ctrlflow": "2"
+  , "d-utils": "0.0.x"
+  }
+, "devDependencies": {}
+, "author": "Dominic Tarr <dominic.tarr@gmail.com> (http://bit.ly/dominictarr)"
+, "scripts": { "test": "meta-test test/*.js" } }
